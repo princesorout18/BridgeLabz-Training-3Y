@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Page</title>
+</head>
+<body>
+
+    <h1>Simple Form</h1>
+
+    <form action="result.html" target="resultFrame">
+
+        <label for="name">Enter Name:</label>
+        <input type="text" id="name" name="name">
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <br>
+
+    <!-- Result page will be loaded into this iframe -->
+    <iframe
+        name="resultFrame"
+        width="500"
+        height="150"
+        title="Result">
+    </iframe>
+
+</body>
+</html>
