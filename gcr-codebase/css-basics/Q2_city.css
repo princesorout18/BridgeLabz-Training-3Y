@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f4efe6;
+    color: #241f1a;
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+    background-color: #241f1a;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+section {
+    min-height: 70vh;
+    padding: 12vh 10%;
+    border-bottom: 8px solid #f4efe6;
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section h2 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+section p {
+    max-width: 700px;
+    padding: 2rem;
+    margin: 2rem 0;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+}
+
+/* Linear gradient section */
+.history {
+    background: linear-gradient(135deg, #d9e7f5, #f6d6ad);
+}
+
+/* Radial gradient section */
+.places {
+    background: radial-gradient(circle, #ffffff, #c9d8e8);
+}
+
+/* Background image with overlay */
+.culture {
+    background:
+        linear-gradient(rgba(20, 30, 40, 0.55),
+                        rgba(20, 30, 40, 0.55)),
+        url("https://picsum.photos/1600/900?random=2");
+
+    color: white;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: #241f1a;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    section {
+        background-attachment: scroll;
+    }
+}
