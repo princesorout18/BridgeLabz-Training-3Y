@@ -1,0 +1,37 @@
+/* Q4 - Responsive Typography */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.text-section {
+    text-align: center;
+    margin: 10vh auto;
+    padding: 40px;
+    max-width: 900px;
+}
+
+h1 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+p {
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+@media (max-width: 700px) {
+
+    .text-section {
+        padding: 20px;
+        margin: 5vh auto;
+    }
+
+    p {
+        line-height: 1.7;
+    }
+}
