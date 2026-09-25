@@ -1,0 +1,14 @@
+body {
+    background: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.pricing-card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
